@@ -1,0 +1,218 @@
+*{
+    margin:0 auto;
+    padding: 0 auto;
+    line-height: 1.2;
+   
+    text-align: justify;
+    text-transform: capitalize;
+}
+body{
+    background-image:url("../photos/bgh.png");
+    background-attachment: fixed;
+}
+h1,h2,h3,h4{
+    font-family: 'Holtwood One SC', serif;
+}
+p{
+    font-family: 'Oswald', sans-serif;
+}
+
+
+ul.navbar-nav.ml-auto li {
+    color: #e96803;
+    font-size: 19px;
+    border: 1px solid #caa0a0;
+    border-radius: 7px;
+  
+    margin: 0px 14px 0 0;
+    border-style: outset;
+    background-color: gainsboro;
+}
+
+footer{
+  background-color: gray;
+    padding:20px 20px 20px 20px;
+    margin: 20px 0 0 0;
+}
+.col-lg-5.header-top h2 {
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 7px;
+    letter-spacing: 2px;
+    font-family: initial;
+    font-weight: bold;
+  
+}
+
+
+.section1.row {
+   background-image: url(../photos/bnn.jpg);
+   background-size:100% 100% ;
+    padding: 65px 0 43px 0px;
+}
+
+.section-language.row {
+    background-color: #9595c5;
+    border-radius: 5px;
+    box-shadow: 4px 3px 16px 0px black;
+    padding: 66px;
+}
+hr.line {
+    background-color: #a8a2a2;
+    height: 700px;
+    width: 2px;
+}
+
+element.style {
+}
+.section2cr.col-3 {
+    background-color: lightblue;
+    border-radius: 5px;
+    padding: 18px 12px 32px 12px;
+    margin: 9px 11px 12px 11px;
+}
+
+    .col-10.link-video {
+        padding: 29px 0 17px 0;
+    }
+    h4 {
+        color: #e96803;
+    }
+    .imgHH{
+        height:400px;
+        width: 100%;
+    }
+  
+
+ 
+    }
+    a.navbar-brand {
+        color: #e96803;
+    }
+    .col-lg-5.header-top {
+        color: #e96803;
+        border: 1px outset #ccccea;
+    border-radius: 47px;
+    background-color: gainsboro;
+    }
+    .head {
+      
+        width: 100%;
+        z-index: 5;
+     
+        
+        position: fixed;
+     
+       
+    }
+    .headAfter{
+        border-bottom: 2px solid #c5c5e7;
+        border-bottom-right-radius: 67px;
+        box-shadow: 1px 0px 26px 4px #675925;
+     background-color: #524d4d ;
+
+    }
+    .header-banner {
+        padding: 111px 0 0 0;
+    }
+    header{
+        background-image: url(../photos/bann.jpg);
+        background-size:100% 100% ;
+        
+    }
+    .row.text-white {
+        background-color: gray;
+    }
+    .same {
+        font-size: 31px;
+        font-weight: bold;
+    }
+    h5{
+        color:#ea4949;
+    }
+    .section2cl.col-8 {
+        background-color: white;
+        opacity: 0.8;
+        padding: 18px 12px 32px 12px;
+        margin: 9px 11px 12px 11px;
+        border-radius: 5px;
+    }
+    .section2-r.row {
+        padding: 25px 25px 0 20px;
+        color:white
+    }
+    ::-webkit-scrollbar {
+        width: 20px;
+      }
+      
+
+      ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey; 
+        border-radius: 10px;
+      }
+       
+   
+      ::-webkit-scrollbar-thumb {
+        background: #9595c5;
+        border-radius: 10px;
+      }
+      
+    
+      ::-webkit-scrollbar-thumb:hover {
+        background: #b30000; 
+      }
+      .do-1,.do-2,.do-3,.do-4{
+          display: none; 
+
+
+
+
+
+      }
+      button.navbar-toggler {
+        border: 2px solid white;
+    }
+
+/* this is for small devices*/
+@media only screen and (max-width: 800px) {
+    .head{
+        position: static;
+    }
+    .col-3.header-col-right {
+     display: none;
+    }
+
+}
+
+
+      @media only screen and (max-width: 600px) {
+
+      .head{
+          position: static;
+      }
+      .col-3.header-col-right {
+        display: none;
+    }
+    .header-col-left{
+        padding: 15px 15px 15px 15px;
+    }
+    .section-language {
+      
+        padding-top: 18px;
+    }
+    hr.line {
+        display: none;
+    }
+    .imgHH {
+        height: 298px;
+      }
+      .header-banner {
+        padding: 3px 0 18px 0;
+    }
+    button.navbar-toggler {
+        display: block;
+        /* justify-content: center; */
+        padding: 13px 0 0 20px;
+        margin: 27px 0 0 195px;
+    }
+    }
